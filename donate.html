@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                   <a href="/index.html">Home</a> 
+                </li>
+                <li>
+                   <a href="/about.html">About</a> 
+                </li>
+                <li>
+                   <a href="/contact.html">Contact</a> 
+                </li>
+                <li>
+                    <a href="/donate.html">
+                        <strong>Donate</strong>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <h1>Help Support the Initiative</h1>
+    </header>
+    <main>
+        <form action="">
+            <label for="name">Full Name *</label>
+            <br>
+            <input type="text" name="fullname" id="name" placeholder="eg. Hellen Good" required>
+            <br>
+            <label for="email" >Email Address *</label>
+            <br>
+            <input type="email" name="email" id="email" placeholder="eg. hellengood@gmail.com" required>
+            <br>
+            <label for="donation-type">Donation Type *</label>
+            <br>
+            <select name="donation-type" id="donation-type" required>
+                <option value="cash">Cash/Financial</option>
+                <option value="kind">Kind/Infrastructure</option>
+            </select>
+            <br>
+            <label for="note">Add A Note (optionals)</label>
+            <br>
+            <textarea  name="note" id="note" cols="30" rows="10">
+            </textarea>
+            <br>
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+    <footer>
+        <p>
+            &copy; All rights reserved 2023
+        </p>
+    </footer>
+</body>
+</html>
